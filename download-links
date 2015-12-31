@@ -1,0 +1,23 @@
+# jdk
+http://download.oracle.com/otn-pub/java/jdk/8u66-b17/jdk-8u65-linux-arm32-vfp-hflt.tar.gz
+#http://download.oracle.com/otn-pub/java/jdk/8u66-b17/jdk-8u66-linux-x64.tar.gz
+http://download.oracle.com/otn-pub/java/jdk/8u66-b17/jdk-8u66-windows-x64.exe
+# scala
+http://downloads.typesafe.com/scala/2.11.7/scala-2.11.7.tgz
+# sbt
+http://dl.bintray.com/sbt/native-packages/sbt/0.13.9/sbt-0.13.9.tgz
+# hadoop
+http://apache.dataguru.cn/hadoop/common/hadoop-2.6.3/hadoop-2.6.3.tar.gz
+#http://apache.fayea.com/hadoop/common/hadoop-2.6.3/hadoop-2.6.3.tar.gz
+#http://apache.opencas.org/hadoop/common/hadoop-2.6.3/hadoop-2.6.3.tar.gz
+#http://mirror.bit.edu.cn/apache/hadoop/common/hadoop-2.6.3/hadoop-2.6.3.tar.gz
+#http://mirrors.cnnic.cn/apache/hadoop/common/hadoop-2.6.3/hadoop-2.6.3.tar.gz
+#http://mirrors.hust.edu.cn/apache/hadoop/common/hadoop-2.6.3/hadoop-2.6.3.tar.gz
+# spark
+http://apache.dataguru.cn/spark/spark-1.5.2/spark-1.5.2-bin-without-hadoop.tgz
+#http://apache.fayea.com/spark/spark-1.5.2/spark-1.5.2-bin-without-hadoop.tgz
+#http://apache.opencas.org/spark/spark-1.5.2/spark-1.5.2-bin-without-hadoop.tgz
+#http://mirror.bit.edu.cn/apache/spark/spark-1.5.2/spark-1.5.2-bin-without-hadoop.tgz
+#http://mirrors.cnnic.cn/apache/spark/spark-1.5.2/spark-1.5.2-bin-without-hadoop.tgz
+#http://mirrors.hust.edu.cn/apache/spark/spark-1.5.2/spark-1.5.2-bin-without-hadoop.tgz
+

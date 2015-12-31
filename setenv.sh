@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+called=$_
+if [[ $called == $0 ]]; then
+  SCRIPT_PATH="$0"
+else
+  SCRIPT_PATH="${BASH_SOURCE[0]}"
+fi
+
+SCRIPT_DIR=$( cd "$(dirname $SCRIPT_PATH )" && pwd )
+BUNDLE_DIR=$SCRIPT_DIR
+
+export JAVA_HOME=$BUNDLE_DIR/jdk
+export SCALA_HOME=$BUNDLE_DIR/scala
+export SBT_HOME=$BUNDLE_DIR/sbt
+export PATH=$JAVA_HOME/bin:$SCALA_HOME/bin:$SBT_HOME/bin:$PATH
+
+export HADOOP_INSTALL=$BUNDLE_DIR/hadoop
+export PATH=$PATH:$HADOOP_INSTALL/bin
+export PATH=$PATH:$HADOOP_INSTALL/sbin
+export HADOOP_MAPRED_HOME=$HADOOP_INSTALL
+export HADOOP_COMMON_HOME=$HADOOP_INSTALL
+export HADOOP_HDFS_HOME=$HADOOP_INSTALL
+export YARN_HOME=$HADOOP_INSTALL
+
+export SPARK_HOME=$BUNDLE_DIR/spark
+export PATH=$PATH:$SPARK_HOME/bin

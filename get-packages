@@ -1,0 +1,3 @@
+for l in `grep -v "^#" download-links`; do
+  wget $l -Px packages
+done
