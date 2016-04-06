@@ -4,3 +4,4 @@ jdk
 scala
 hadoop
 spark
+!hadoop-cluster-conf
